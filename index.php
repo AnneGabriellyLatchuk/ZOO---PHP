@@ -63,10 +63,8 @@ function excluirAnimal($id) {
 }
 
 // 8. Teste para verificar se a função está sendo executada
-if (isset($_GET['teste'])) {
     adicionarAnimal('Tigre', 'Felino', 4, 'Floresta');
     echo "Animal adicionado!";
-}
 
 // 9. Teste para listar os animais
 $animais = listarAnimais();
